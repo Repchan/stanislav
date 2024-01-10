@@ -116,12 +116,12 @@ class MainContent extends React.Component{
                                 <img src={'/images/doctor.jpeg'} className={'doctorImage'} alt={'name doctor'}></img>
                             </div>
                             <div className={'about'}>
-                                <h2 className={'aboutName'}>Пися Толстый</h2>
+                                <h2 className={'aboutName'}>Шевченко Станіслав</h2>
                                 <ul className={'aboutUl'}>
-                                    <li className={'aboutLi'}>Лауреат премии за лучший голова глаза</li>
-                                    <li className={'aboutLi'}>Лауреат премии за лучшую игру на ТОЗ</li>
-                                    <li className={'aboutLi'}>Кандидат наук по иследованиям в области развязки</li>
-                                    <li className={'aboutLi'}>Действительный член</li>
+                                    <li className={'aboutLi'}>Лауреат премии </li>
+                                    <li className={'aboutLi'}>Лауреат премии </li>
+                                    <li className={'aboutLi'}>Кандидат наук по иследованиям в области </li>
+                                    <li className={'aboutLi'}>Действительный </li>
                                 </ul>
                                 <div className={'aboutPhotosSlider'}>
                                     <img src={'/images/certificate1.png'} className={'photoC'} onClick={() => this.openModal('/images/certificate1.png')} />

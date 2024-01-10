@@ -20,7 +20,7 @@ class MapComponent extends React.Component {
                 />
 
                 <Marker position={center}>
-                    <Popup>Пидарас</Popup>
+                    <Popup>Ми тут</Popup>
                 </Marker>
             </MapContainer>
         );

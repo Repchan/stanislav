@@ -126,6 +126,10 @@ a{
   width:400px;
   height: 250px;
   border-radius: 20px;
+  transition-duration: .3s;
+}
+.card img:hover{
+  opacity: .6;
 }
 .blockMiddleImage{
   position: absolute;
@@ -274,6 +278,11 @@ footer .footerBott{
 }
 .photoC{
   width:100px;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+.photoC:hover{
+  opacity: .6;
 }
 .aboutPhotosSlider{
   display: flex;
@@ -302,9 +311,15 @@ footer .footerBott{
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
+  transition-duration: .3s;
 }
+
 .photoCeAboutMe{
   width:400px;
+  transition-duration: .3s;
+}
+.photoCeAboutMe:hover{
+  opacity: .6;
 }
 .basicInf h1,.certificate h1,.diagnostics h1,.questions h1,.publications h1,.scienceExperience h1,.course h1{
   margin-bottom: 35px;
@@ -372,4 +387,14 @@ footer .footerBott{
   display: flex;
   flex-direction: column;
   gap:10px;
+}
+.navLink{
+  color:black;
+  transition-duration: .3s;
+}
+.navLink:hover{
+  color:#56C1FF!important;
+}
+.active{
+  color:#56C1FF;
 }
