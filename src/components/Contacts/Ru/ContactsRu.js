@@ -1,10 +1,10 @@
 import React from 'react'
-import MapComponent from "./Map";
-const Contacts = (props) =>{
+import MapComponent from "../../Map/Ua/Map";
+const ContactsRu = (props) =>{
     return(
         <div className={"contacts"}>
             <div className={"container"}>
-                <h1>Контакти</h1>
+                <h1>Контакты</h1>
                 <div className={'contactsInfo'}>
                     <div className={'contactsInfoText'}>
                         <div className={"contactsTelAndEmail"}>
@@ -39,13 +39,13 @@ const Contacts = (props) =>{
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="icon" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
                                 </svg>
-                                <a href={"#"} className={'navLink'}>м.Харків вул. Академіка павлова 23</a>
+                                <a href={"#"} className={'navLink'}>г.Харкьков ул. Академика Павлова 23</a>
                             </div>
                             <div className={'iconGroup'}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="icon" viewBox="0 0 16 16">
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
                                 </svg>
-                                <a href={"#"} className={'navLink'}>м.Харків вул. Академіка павлова 23</a>
+                                <a href={"#"} className={'navLink'}>г.Харкьков ул. Академика Павлова 23</a>
                             </div>
                         </div>
                         <div className={"contactsMessengers"}>
@@ -63,4 +63,4 @@ const Contacts = (props) =>{
         </div>
     )
 }
-export default Contacts
+export default ContactsRu

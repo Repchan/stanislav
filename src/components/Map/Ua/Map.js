@@ -1,7 +1,7 @@
 import React from "react";
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import '../App.css';
+import '../../../css/App.css';
 L.Icon.Default.imagePath = "https://unpkg.com/leaflet@1.5.0/dist/images/";
 class MapComponent extends React.Component {
     state = {
