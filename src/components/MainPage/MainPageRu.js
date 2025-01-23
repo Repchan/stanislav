@@ -20,12 +20,12 @@ class MainPageRu extends React.Component {
                 <div className={"mainPage"}>
                     <Routes>
                         <Route path="/" element={<MainContentRu />} />
-                        <Route path="contacts/ru" element={<ContactsRu />} />
-                        <Route path="about/basic-info/ru" element={<BasicInfRu />} />
-                        <Route path="about/certificates/ru" element={<CertificateRu />} />
-                        <Route path='course/ru' element={<CourseRu/>}></Route>
-                        <Route path='patient/diagnostics/ru' element={<DiagnosticsRu/>}></Route>
-                        <Route path='patient/questions/ru' element={<QuestionsRu/>}></Route>
+                        <Route path="contacts" element={<ContactsRu />} />
+                        <Route path="about/basic-info" element={<BasicInfRu />} />
+                        <Route path="about/certificates" element={<CertificateRu />} />
+                        <Route path='course' element={<CourseRu/>}></Route>
+                        <Route path='patient/diagnostics' element={<DiagnosticsRu/>}></Route>
+                        <Route path='patient/questions' element={<QuestionsRu/>}></Route>
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>

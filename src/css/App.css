@@ -8,8 +8,11 @@
   margin: 0;
   font-family: 'Rubik', sans-serif;
   text-decoration: none;
+  list-style: none;
 }
-
+body{
+  overflow-x: hidden;
+}
 body,
 #root,
 .leaflet-container {
@@ -62,7 +65,6 @@ a{
 }
 .logo{
   width:120px;
-  margin-top:5px;
 }
 .navigation{
   display: flex;
@@ -76,12 +78,13 @@ a{
 }
 .blockTopImage{
   position: absolute;
+
   z-index: -1;
   width:100%;
   height: 100%;
-  background-image: url("../../public/images/background.jpeg");
+  background-image: url("../../public/images/background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .blockTop .container{
   display: flex;
@@ -123,8 +126,9 @@ a{
   color: #006BBD;
 }
 .card img{
-  width:400px;
+  width:100%;
   height: 250px;
+  object-fit: cover;
   border-radius: 20px;
   transition-duration: .3s;
 }
@@ -138,7 +142,7 @@ a{
   height: 100%;
   background-image: url("../../public/images/background.jpeg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 .blockMiddle{
   height: 350px;
@@ -184,7 +188,11 @@ a{
 }
 .doctorImage{
   height: 100%;
-
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .aboutName{
   font-size: 38px;
@@ -248,6 +256,8 @@ footer .footerBott{
 .aboutMe{
   display: flex;
   position: relative;
+  list-style: none;
+  cursor: pointer;
 }
 .science{
   display: flex;
@@ -256,6 +266,8 @@ footer .footerBott{
 .patient{
   display: flex;
   position: relative;
+  list-style: none;
+  cursor: pointer;
 }
 .dropdownBlock{
   display: flex;
@@ -272,14 +284,19 @@ footer .footerBott{
   list-style: none;
   row-gap: 10px;
 }
+.navigationBurger{
+  display: none;
+}
 .map{
   width:100%;
   flex-basis: 70%;
 }
 .photoC{
   width:100px;
+  height: auto;
   transition-duration: .3s;
   cursor: pointer;
+  object-fit:cover;
 }
 .photoC:hover{
   opacity: .6;
@@ -317,6 +334,7 @@ footer .footerBott{
 .photoCeAboutMe{
   width:400px;
   transition-duration: .3s;
+  object-fit:cover;
 }
 .photoCeAboutMe:hover{
   opacity: .6;
@@ -354,6 +372,10 @@ footer .footerBott{
 }
 .iconGroup{
   position: relative;
+
+}
+.contactsFooter{
+  margin: 0 auto;
 }
 .iconGroup .icon{
   fill:#006bbd!important;
@@ -405,4 +427,35 @@ footer .footerBott{
 .Active{
   font-weight: bold;
   text-decoration: underline;
+}
+.burgerMenu{
+  display:none;
+  cursor:pointer;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.navigationBurger{
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  position: absolute;
+  background-color: white;
+  left:0;
+  top:100px;
+  z-index: 5000;
+  font-size: 27px;
+  padding:0 20px;
+}
+.burgerElement{
+  list-style: none;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  padding: 5px 0;
+}
+.burgerElement:last-child{
+  border-bottom: none;
 }

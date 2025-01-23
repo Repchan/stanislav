@@ -3,15 +3,166 @@
     .addressEl{
         display: none;
     }
+
     .container{
         max-width:852px;
+        padding: 15px;
+    }
+    .middleBlockCard{
+        width:50%;
+
+    }
+    .blockMiddle{
+        height: auto;
     }
 }
-@media(max-width: 768px){
-    /*Стили, на устройствах с максимальной ширеной экрана 768 пикселей и меньше */
+@media(max-width: 1198px){
+    .secondBlockContainer{
+        grid-template-columns: repeat(2, 50%) !important;
+    }
+    .container{
+        max-width:852px;
+        padding: 15px;
+    }
+}
+@media(max-width: 798px) {
+    .contactsFooter{
+        padding-bottom: 15px;
+    }
+    .icon{
+        top:5px;
+    }
+    .address .iconGroup .icon {
+        left: -10px;
 
+    }
+    .iconMail{
+        top:6px;
+    }
+    .emailElement{
+        display: none;
+    }
+    .navigation{
+        display: none;
+    }
+    .burgerMenu{
+        display: block;
+    }
+    .aboutMe{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .blockTop h2{
+        font-size: 30px!important;
+    }
+    .patient{
+        text-align: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .emailElement{
+        display: none;
+    }
+    .dropdownBlock{
+        position: relative;
+        width: 50%;
+        margin:0 auto;
+        background: none;
+        box-shadow: none;
+        left:0;
+        top:0;
+        padding:0;
+        font-size: 23px;
+        row-gap: 0;
+
+
+    }
+    .blockTopImage{
+        background-position: 100% 100%;
+    }
+    .dropdownBlock li{
+
+    }
+    .container{
+        padding: 0 20px;
+        max-width: 650px;
+    }
+    .navLink{
+        margin: 0 auto;
+    }
+    .burgerMenu{
+        font-size: 30px;
+    }
+    .secondBlock h2 {
+        text-align: center;
+    }
+    .secondBlockContainer{
+        grid-template-columns: repeat(1, 100%) !important;
+    }
+    .card img{
+        width:80%;
+        height: auto;
+
+    }
+    .middleBlockContainerCard{
+        row-gap: 30px;
+    }
+    .aboutMeContainer{
+        flex-direction: column;
+    }
+    .doctorImageBlock{
+        width:100%;
+        height: auto;
+    }
+    .doctorImageBlock img{
+        width:100%;
+        height: auto;
+    }
+    .photoC{
+        width: 23%;
+    }
+    .footerTop .container{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .footerInfo{
+        font-size: 20px;
+    }
+    .footerInfo h2{
+        font-size: 25px;
+    }
+    .footerInfo:nth-child(2){
+        border:none;
+        border-top:1px solid #C2DFEA;
+        border-bottom:1px solid #C2DFEA;
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+    .footerTop h2{
+        margin-bottom: 10px;
+    }
+    .iconGroup{
+        text-align: center;
+    }
 }
 
 @media(max-width: 500px){
-    /*Стили, на устройствах с максимальной ширеной экрана 500 пикселей и меньше */
+    .emailElement , .phoneElement{
+        display: none;
+    }
+    .blockTopImage{
+        background-position: 100% 100%;
+    }
+    .middleBlockContainerCard{
+        row-gap: 10px;
+    }
+    .middleBlockCard{
+        width:100%;
+    }
+    .middleBlockCard svg{
+        width:50px
+    }
 }

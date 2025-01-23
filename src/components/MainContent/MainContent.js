@@ -113,21 +113,21 @@ class MainContent extends React.Component{
                     <div className={'container'}>
                         <div className={'aboutMeContainer'}>
                             <div className={'doctorImageBlock'}>
-                                <img src={'/images/doctor.jpeg'} className={'doctorImage'} alt={'name doctor'}></img>
+                                <img src={'/images/doctorPhoto.jpg'} className={'doctorImage'} alt={'name doctor'} ></img>
                             </div>
                             <div className={'about'}>
-                                <h2 className={'aboutName'}>Шевченко Станіслав</h2>
+                                <h2 className={'aboutName'}>Шевченко Ростислав</h2>
                                 <ul className={'aboutUl'}>
-                                    <li className={'aboutLi'}>Лауреат премии </li>
-                                    <li className={'aboutLi'}>Лауреат премии </li>
-                                    <li className={'aboutLi'}>Кандидат наук по иследованиям в области </li>
-                                    <li className={'aboutLi'}>Действительный </li>
+                                    <li className={'aboutLi'}>Лауреат премії </li>
+                                    <li className={'aboutLi'}>Лауреат премії </li>
+                                    <li className={'aboutLi'}>Кандидат наук по дослідженям у сфері </li>
+                                    <li className={'aboutLi'}>Дійсний </li>
                                 </ul>
                                 <div className={'aboutPhotosSlider'}>
-                                    <img src={'/images/certificate1.png'} className={'photoC'} onClick={() => this.openModal('/images/certificate1.png')} />
-                                    <img src={'/images/certificate1.png'} className={'photoC'} onClick={() => this.openModal('/images/certificate1.png')} />
-                                    <img src={'/images/certificate1.png'} className={'photoC'} onClick={() => this.openModal('/images/certificate1.png')} />
-                                    <img src={'/images/certificate1.png'} className={'photoC'} onClick={() => this.openModal('/images/certificate1.png')} />
+                                    <img src={'/images/diplomas/1.jpg'} className={'photoC'} onClick={() => this.openModal('/images/diplomas/1.jpg')} />
+                                    <img src={'/images/diplomas/2.jpg'} className={'photoC'} onClick={() => this.openModal('/images/diplomas/2.jpg')} />
+                                    <img src={'/images/diplomas/3.jpg'} className={'photoC'} onClick={() => this.openModal('/images/diplomas/3.jpg')} />
+                                    <img src={'/images/diplomas/4.jpg'} className={'photoC'} onClick={() => this.openModal('/images/diplomas/4.jpg')} />
                                 </div>
                             </div>
                         </div>

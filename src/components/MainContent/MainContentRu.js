@@ -31,7 +31,7 @@ class MainContentRu extends React.Component{
                         <h2>Направления лечения</h2>
                         <div className={'secondBlockContainer'}>
                             <div className={'card'}>
-                                <img src={'/images/dahiliye.jpg'}></img>
+                                <img src={'/images/oper.jpg'}></img>
                                 <p>Операции</p>
                             </div>
                             <div className={'card'}>
@@ -113,10 +113,10 @@ class MainContentRu extends React.Component{
                     <div className={'container'}>
                         <div className={'aboutMeContainer'}>
                             <div className={'doctorImageBlock'}>
-                                <img src={'/images/doctor.jpeg'} className={'doctorImage'} alt={'name doctor'}></img>
+                                <img src={'/images/doctorPhoto.jpg'} className={'doctorImage'} alt={'name doctor'}></img>
                             </div>
                             <div className={'about'}>
-                                <h2 className={'aboutName'}>Шевченко Станислав</h2>
+                                <h2 className={'aboutName'}>Шевченко Ростислав</h2>
                                 <ul className={'aboutUl'}>
                                     <li className={'aboutLi'}>Лауреат премии </li>
                                     <li className={'aboutLi'}>Лауреат премии </li>
