@@ -259,6 +259,11 @@ footer .footerBott{
   list-style: none;
   cursor: pointer;
 }
+.courseP{
+  text-align: justify !important;
+  font-size: 19px;
+  line-height: 25px;
+}
 .science{
   display: flex;
   position: relative;

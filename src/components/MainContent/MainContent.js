@@ -23,7 +23,7 @@ class MainContent extends React.Component{
                     <div className={'blockTopImage'}></div>
                     <div className={'container'}>
 
-                        <h2>Lorem ipsum&nbsp;&mdash; gravida, vivamus eget tellus magna gravida massa quisque quam lectus rutrum massa magna commodo auctor tempus magna massa. </h2>
+                        <h2> Хірургія — це наука і мистецтво, де точність, інновації та турбота про пацієнта йдуть рука об руку. Кожен крок операції — це шлях до нового життя, відновлення здоров’я та повернення впевненості в завтрашньому дні </h2>
                     </div>
                 </div>
                 <div className={'secondBlock'}>
@@ -118,10 +118,9 @@ class MainContent extends React.Component{
                             <div className={'about'}>
                                 <h2 className={'aboutName'}>Шевченко Ростислав</h2>
                                 <ul className={'aboutUl'}>
-                                    <li className={'aboutLi'}>Лауреат премії </li>
-                                    <li className={'aboutLi'}>Лауреат премії </li>
-                                    <li className={'aboutLi'}>Кандидат наук по дослідженям у сфері </li>
-                                    <li className={'aboutLi'}>Дійсний </li>
+                                    <li className={'aboutLi'}>Профессор кафедри хірургії №4.</li>
+                                    <li className={'aboutLi'}>Хірург вищої категорії </li>
+                                    <li className={'aboutLi'}>Член Європейської асоціації ендоскопічних хірургів</li>
                                 </ul>
                                 <div className={'aboutPhotosSlider'}>
                                     <img src={'/images/diplomas/1.jpg'} className={'photoC'} onClick={() => this.openModal('/images/diplomas/1.jpg')} />

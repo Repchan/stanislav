@@ -5,8 +5,8 @@ import '../../../css/App.css';
 L.Icon.Default.imagePath = "https://unpkg.com/leaflet@1.5.0/dist/images/";
 class MapComponent extends React.Component {
     state = {
-        lat: 50.508622,
-        lng: 30.449330,
+        lat: 49.978834,
+        lng: 36.291217,
         zoom: 15
     };
 

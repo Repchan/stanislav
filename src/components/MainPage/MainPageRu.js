@@ -8,7 +8,6 @@ import NotFound from "../Errors/NotFound";
 import HeaderRu from "../Header/HeaderRu";
 import FooterRu from "../Footer/FooterRu";
 import MainContentRu from "../MainContent/MainContentRu";
-import QuestionsRu from "../Patient/Ru/QuestionsRu";
 import DiagnosticsRu from "../Patient/Ru/DiagnosticsRu";
 class MainPageRu extends React.Component {
 
@@ -25,7 +24,6 @@ class MainPageRu extends React.Component {
                         <Route path="about/certificates" element={<CertificateRu />} />
                         <Route path='course' element={<CourseRu/>}></Route>
                         <Route path='patient/diagnostics' element={<DiagnosticsRu/>}></Route>
-                        <Route path='patient/questions' element={<QuestionsRu/>}></Route>
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>

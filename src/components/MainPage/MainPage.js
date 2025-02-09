@@ -6,7 +6,6 @@ import BasicInf from '../AboutMe/Ua/BasicInf';
 import Certificate from '../AboutMe/Ua/Сertificate';
 import Course from '../Course/Ua/Course';
 import Diagnostics from "../Patient/Ua/Diagnostics";
-import Questions from "../Patient/Ua/Questions";
 import NotFound from "../Errors/NotFound";
 import MapComponent from "../Map/Ua/Map";
 import HeaderUa from "../Header/HeaderUa";
@@ -26,7 +25,6 @@ class MainPage extends React.Component {
                         <Route path="about/certificates" element={<Certificate />} />
                         <Route path='course' element={<Course/>}></Route>
                         <Route path='patient/diagnostics' element={<Diagnostics/>}></Route>
-                        <Route path='patient/questions' element={<Questions/>}></Route>
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </div>
